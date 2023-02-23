@@ -5,7 +5,7 @@ def create_a_list():
     return [1, 2, 3, 4]
 
 def add_element_to_end_of_list(l, element):
-    # why doesn't this work??
+    # This won't work because it'll return none
     # return l.append(element)
     l.append(element)
     return l
@@ -24,8 +24,6 @@ def remove_element_from_start_of_list(l):
     return l
 
 def retrieve_first_element_from_list(l):
-    # why doesn't this work??
-    # l[0]
     return l[0]
 
 def retrieve_element_from_index(l, index):
